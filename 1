@@ -1,0 +1,13 @@
+#include <stdio.h>
+//1 гриб 234 гриба 56789 грибов
+int main() {
+    int k;
+    scanf_s("%d",&k);
+    if(k%10==1)
+        printf("%d grib",k);
+    else if(k%10>=2 && k%10<=4)
+        printf("%d griba",k);
+    else
+        printf("%d gribov",k);
+    return 0;
+}
