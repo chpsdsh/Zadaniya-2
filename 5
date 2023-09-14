@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+    int N,K,M,s1,s2;
+    scanf_s("%d %d %d",&N,&K,&M);
+    s1=K-M-1;
+    s2=N-K+M-1;
+    if (s1<s2)
+        printf("%d",s1);
+    else
+        printf("%d",s2);
+    return 0;
+}
