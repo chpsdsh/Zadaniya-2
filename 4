@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    float t,time;
+    scanf_s("%f",&t);
+    time=t-(int)t/10*10;
+    if ((time>=0 && time<2)||(time>=5 && time<7))
+        printf("ZELENIY");
+    else
+        printf("KRASNIY");
+    return 0;
+}
